@@ -37,6 +37,8 @@
             currentStatus = 'waitlisted';
         } else if (status == 'In Service') {
             currentStatus = 'inService';
+        } else if (status == "Approved") {
+            currentStatus = "approved";
         } else if (status == 'Discharged') {
             currentStatus = 'AllDone';
         }
