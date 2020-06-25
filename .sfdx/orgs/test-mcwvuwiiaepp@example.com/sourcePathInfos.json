@@ -60,14 +60,14 @@
     [
         "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\applications\\Allegheny_County.app-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\applications\\Allegheny_County.app-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 1674,
             "modifiedTime": 1593084333631,
             "changeTime": 1593084333631,
-            "contentHash": "1255a3d5e0fa3c8a4239d4d34d555226697d1c60"
+            "contentHash": "1255a3d5e0fa3c8a4239d4d34d555226697d1c60",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
@@ -269,28 +269,27 @@
         {
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\lwc\\intake\\intake.html",
             "isDirectory": false,
-            "size": 318,
-            "modifiedTime": 1593067332297,
-            "changeTime": 1593067332297,
-            "contentHash": "19251f89dc5938728bb74f909a524190570b77b7",
+            "size": 342,
+            "modifiedTime": 1593092566698,
+            "changeTime": 1593092566698,
+            "contentHash": "2c7250f9050710c5e95eb02c5aac0b09744e23f8",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
         "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\lwc\\intake\\intake.js",
         {
+            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\lwc\\intake\\intake.js",
             "isDirectory": false,
-            "size": 1505,
-            "modifiedTime": 1593073903823,
-            "changeTime": 1593073903823,
-            "contentHash": "74393f116c021140b40161eaa8ecd06f324bc4fc",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false
+            "size": 1637,
+            "modifiedTime": 1593092701943,
+            "changeTime": 1593092701943,
+            "isWorkspace": false,
+            "contentHash": "370d5d5795514d13b5414deb6a2c91fa25702bb1"
         }
     ],
     [
@@ -625,14 +624,14 @@
     [
         "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\objects\\AG_Referral__c\\AG_Referral__c.object-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\objects\\AG_Referral__c\\AG_Referral__c.object-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 5726,
             "modifiedTime": 1593084333537,
             "changeTime": 1593084333537,
-            "contentHash": "5c5388e24f0ad846e51eaed005cdff69429a41ef"
+            "contentHash": "5c5388e24f0ad846e51eaed005cdff69429a41ef",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
@@ -653,14 +652,14 @@
     [
         "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\objects\\AG_Referral__c\\compactLayouts\\AG_Referral_Compact_Layout.compactLayout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\objects\\AG_Referral__c\\compactLayouts\\AG_Referral_Compact_Layout.compactLayout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 400,
             "modifiedTime": 1593084333537,
             "changeTime": 1593084333537,
-            "contentHash": "f902050030ed5e06ce4c40246fead4997a91e918"
+            "contentHash": "f902050030ed5e06ce4c40246fead4997a91e918",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
@@ -1078,14 +1077,14 @@
     [
         "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\flexipages",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\flexipages",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1593084333615,
             "changeTime": 1593084333615,
-            "contentHash": "92a5109d12fed5f0e2f601bb3427cb1532a854fc"
+            "contentHash": "92a5109d12fed5f0e2f601bb3427cb1532a854fc",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -1198,7 +1197,7 @@
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\permissionsets\\DHS_Permission_Set.permissionset-meta.xml",
             "isDirectory": false,
             "size": 14859,
-            "modifiedTime": 1593074358233,
+            "modifiedTime": 1593084633855,
             "changeTime": 1593074358233,
             "contentHash": "30011ef058363b68ec8ab3afeb0294d8e5dbb955",
             "isMetadataFile": true,
@@ -1234,14 +1233,14 @@
     [
         "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\layouts",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\layouts",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1593084333568,
             "changeTime": 1593084333568,
-            "contentHash": "44c051a7884c58dfc1892eb63859fd86450a94e9"
+            "contentHash": "44c051a7884c58dfc1892eb63859fd86450a94e9",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -1273,14 +1272,14 @@
     [
         "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\layouts\\AG_Referral__c-Referral Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\layouts\\AG_Referral__c-Referral Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 5919,
             "modifiedTime": 1593084333599,
             "changeTime": 1593084333599,
-            "contentHash": "3a88af955ba0bb2523ff186184007ce551e191e5"
+            "contentHash": "3a88af955ba0bb2523ff186184007ce551e191e5",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
@@ -1429,27 +1428,27 @@
     [
         "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\layouts\\AG_Intake__c-Intake Layout.layout-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\layouts\\AG_Intake__c-Intake Layout.layout-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 4035,
             "modifiedTime": 1593084333568,
             "changeTime": 1593084333568,
-            "contentHash": "e55d28d54bea7bc5af48a41f167fa6acbaa203be"
+            "contentHash": "e55d28d54bea7bc5af48a41f167fa6acbaa203be",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\flexipages\\Referral_Record_Page.flexipage-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\flexipages\\Referral_Record_Page.flexipage-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 11263,
             "modifiedTime": 1593084333615,
             "changeTime": 1593084333615,
-            "contentHash": "156fd76879c3ae67b3cf9e42ca56ac5f313d7afa"
+            "contentHash": "156fd76879c3ae67b3cf9e42ca56ac5f313d7afa",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ]
 ]
