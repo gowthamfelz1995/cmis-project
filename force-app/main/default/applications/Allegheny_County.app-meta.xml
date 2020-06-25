@@ -12,9 +12,10 @@
     <label>Allegheny County</label>
     <navType>Standard</navType>
     <tabs>standard-Account</tabs>
-    <tabs>AG_Assessment__c</tabs>
     <tabs>AG_Referral__c</tabs>
-    <tabs>AG_Service__c</tabs>
     <tabs>AG_Intake__c</tabs>
+    <tabs>AG_Assessment__c</tabs>
+    <tabs>AG_Service__c</tabs>
     <uiType>Lightning</uiType>
+    <utilityBar>Allegheny_County_UtilityBar</utilityBar>
 </CustomApplication>
