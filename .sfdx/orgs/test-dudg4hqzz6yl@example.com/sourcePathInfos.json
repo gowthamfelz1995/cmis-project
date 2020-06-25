@@ -32,31 +32,29 @@
     [
         "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default",
         {
+            "state": "u",
             "sourcePath": "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default",
             "isDirectory": true,
-            "size": 448,
-            "modifiedTime": 1592913783187,
-            "changeTime": 1592913783187,
-            "contentHash": "134fb9100108b9aaba9aee713cf235d514fd8f88",
             "isMetadataFile": false,
-            "state": "u",
+            "size": 512,
+            "modifiedTime": 1593072704300,
+            "changeTime": 1593072704300,
             "isWorkspace": false,
-            "isArtifactRoot": false
+            "contentHash": "4f7af740f83770e02d324a71d5ae0de735eafe98"
         }
     ],
     [
         "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/applications",
         {
+            "state": "u",
             "sourcePath": "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/applications",
             "isDirectory": true,
-            "size": 64,
-            "modifiedTime": 1592913783066,
-            "changeTime": 1592913783066,
-            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
             "isMetadataFile": false,
-            "state": "u",
+            "size": 96,
+            "modifiedTime": 1593072704289,
+            "changeTime": 1593072704289,
             "isWorkspace": false,
-            "isArtifactRoot": false
+            "contentHash": "8db4ce9a7f47855817eea2bd06c57cb53d8f3f94"
         }
     ],
     [
@@ -257,16 +255,15 @@
     [
         "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/flexipages",
         {
+            "state": "u",
             "sourcePath": "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/flexipages",
             "isDirectory": true,
-            "size": 64,
-            "modifiedTime": 1592913783066,
-            "changeTime": 1592913783066,
-            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
             "isMetadataFile": false,
-            "state": "u",
+            "size": 96,
+            "modifiedTime": 1593072704289,
+            "changeTime": 1593072704289,
             "isWorkspace": false,
-            "isArtifactRoot": false
+            "contentHash": "742395c91c41beb8908d953c7e1c7dff3c4bed3a"
         }
     ],
     [
@@ -287,16 +284,15 @@
     [
         "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/lwc",
         {
+            "state": "u",
             "sourcePath": "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/lwc",
             "isDirectory": true,
-            "size": 160,
-            "modifiedTime": 1593067977225,
-            "changeTime": 1593067977225,
-            "contentHash": "fdff729c6a15912e7c0a9f149efc101d2a16dd0e",
             "isMetadataFile": false,
-            "state": "u",
+            "size": 192,
+            "modifiedTime": 1593074312171,
+            "changeTime": 1593074312171,
             "isWorkspace": false,
-            "isArtifactRoot": false
+            "contentHash": "640757d82f323f30fef33e9cb086e303b5a6f9db"
         }
     ],
     [
@@ -362,29 +358,28 @@
     [
         "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/objects",
         {
+            "state": "u",
             "sourcePath": "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/objects",
             "isDirectory": true,
-            "size": 64,
-            "modifiedTime": 1592913783066,
-            "changeTime": 1592913783066,
-            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
             "isMetadataFile": false,
-            "state": "u",
+            "size": 192,
+            "modifiedTime": 1593072704298,
+            "changeTime": 1593072704298,
             "isWorkspace": false,
-            "isArtifactRoot": false
+            "contentHash": "e98f88db294709e5d422fe21323aebc145fa0408"
         }
     ],
     [
         "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/permissionsets",
         {
-            "state": "u",
             "sourcePath": "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/permissionsets",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 96,
             "modifiedTime": 1593074277471,
             "changeTime": 1593074277471,
-            "contentHash": "3bbecfde6ce8266415b8f9901e23caf1c2305932"
+            "contentHash": "3bbecfde6ce8266415b8f9901e23caf1c2305932",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -405,16 +400,15 @@
     [
         "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/tabs",
         {
+            "state": "u",
             "sourcePath": "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/tabs",
             "isDirectory": true,
-            "size": 64,
-            "modifiedTime": 1592913783067,
-            "changeTime": 1592913783067,
-            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
             "isMetadataFile": false,
-            "state": "u",
+            "size": 192,
+            "modifiedTime": 1593072704302,
+            "changeTime": 1593072704302,
             "isWorkspace": false,
-            "isArtifactRoot": false
+            "contentHash": "82339a676ffe7543e4e08e9bcdcfae9714db9c12"
         }
     ],
     [
@@ -466,7 +460,7 @@
             "sourcePath": "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/profiles",
             "isDirectory": true,
             "size": 96,
-            "modifiedTime": 1593072704300,
+            "modifiedTime": 1593074295064,
             "changeTime": 1593072704300,
             "contentHash": "dd4bc5d00d5b87ac9dcfa94ec543d354d095c25c",
             "isMetadataFile": false,
@@ -658,14 +652,14 @@
     [
         "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/profiles/Admin.profile-meta.xml",
         {
+            "state": "u",
             "sourcePath": "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/profiles/Admin.profile-meta.xml",
             "isDirectory": false,
-            "size": 25311,
-            "modifiedTime": 1593072704300,
-            "changeTime": 1593072704300,
-            "contentHash": "5fb2a019e3338608e1564804b56255f3632d5eec",
             "isMetadataFile": true,
-            "state": "u"
+            "size": 25323,
+            "modifiedTime": 1593074295064,
+            "changeTime": 1593074295064,
+            "contentHash": "153e4f7c2a2578f814e99fd553af9c649e3e175c"
         }
     ],
     [
@@ -1139,14 +1133,53 @@
     [
         "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/permissionsets/DHS_Permission_Set.permissionset-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/permissionsets/DHS_Permission_Set.permissionset-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 14420,
             "modifiedTime": 1593074277471,
             "changeTime": 1593074277471,
-            "contentHash": "b897ef2f867ded5dce9d9304df91fdb23d029b8e"
+            "contentHash": "b897ef2f867ded5dce9d9304df91fdb23d029b8e",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/lwc/pubsub",
+        {
+            "state": "u",
+            "sourcePath": "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/lwc/pubsub",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 128,
+            "modifiedTime": 1593074312180,
+            "changeTime": 1593074312180,
+            "contentHash": "825dc4f64293d1cb0763368d6a5b772afed59972"
+        }
+    ],
+    [
+        "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/lwc/pubsub/pubsub.js",
+        {
+            "state": "u",
+            "sourcePath": "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/lwc/pubsub/pubsub.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 3289,
+            "modifiedTime": 1593074312177,
+            "changeTime": 1593074312178,
+            "contentHash": "d59a2483cc711dada17921888c52e586eeb507b9"
+        }
+    ],
+    [
+        "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/lwc/pubsub/pubsub.js-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/lwc/pubsub/pubsub.js-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 210,
+            "modifiedTime": 1593074312180,
+            "changeTime": 1593074312181,
+            "contentHash": "2008abbc71a81797e9ee213998197140ccacc390"
         }
     ]
 ]
