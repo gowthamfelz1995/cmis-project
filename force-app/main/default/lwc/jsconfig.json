@@ -5,6 +5,9 @@
         "paths": {
             "c/intake": [
                 "intake/intake.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
             ]
         }
     },
