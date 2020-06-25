@@ -32,14 +32,14 @@
     [
         "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1593071959663,
             "changeTime": 1593071959663,
-            "contentHash": "846ff4719e1bfdbf9e2ca729666515e8e0851099"
+            "contentHash": "846ff4719e1bfdbf9e2ca729666515e8e0851099",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -60,14 +60,14 @@
     [
         "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\applications\\Allegheny_County.app-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\applications\\Allegheny_County.app-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 840,
             "modifiedTime": 1593071959614,
             "changeTime": 1593071959614,
-            "contentHash": "62ecd1b3d19fecef9592f96b40ac0c39dfe7f2a6"
+            "contentHash": "62ecd1b3d19fecef9592f96b40ac0c39dfe7f2a6",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
@@ -1063,14 +1063,14 @@
     [
         "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\flexipages\\Allegheny_County_UtilityBar.flexipage-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\flexipages\\Allegheny_County_UtilityBar.flexipage-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 511,
             "modifiedTime": 1593071959576,
             "changeTime": 1593071959576,
-            "contentHash": "a7134b9b0f88f3de7cd8f95c5de771eac586f4be"
+            "contentHash": "a7134b9b0f88f3de7cd8f95c5de771eac586f4be",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
@@ -1080,36 +1080,36 @@
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
             "isDirectory": false,
             "isMetadataFile": true,
-            "size": 25311,
-            "modifiedTime": 1593071959663,
-            "changeTime": 1593071959663,
-            "contentHash": "5fb2a019e3338608e1564804b56255f3632d5eec"
+            "size": 25323,
+            "modifiedTime": 1593072938151,
+            "changeTime": 1593072938151,
+            "contentHash": "153e4f7c2a2578f814e99fd553af9c649e3e175c"
         }
     ],
     [
         "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\appMenus\\AppSwitcher.appMenu-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\appMenus\\AppSwitcher.appMenu-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 2129,
             "modifiedTime": 1593071959678,
             "changeTime": 1593071959678,
-            "contentHash": "d8ab0722fd87a561227baa53d9b78f07aa5057a3"
+            "contentHash": "d8ab0722fd87a561227baa53d9b78f07aa5057a3",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\flexipages",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\flexipages",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1593071959576,
             "changeTime": 1593071959576,
-            "contentHash": "742395c91c41beb8908d953c7e1c7dff3c4bed3a"
+            "contentHash": "742395c91c41beb8908d953c7e1c7dff3c4bed3a",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -1120,22 +1120,61 @@
             "isDirectory": true,
             "isMetadataFile": false,
             "size": 0,
-            "modifiedTime": 1593071959663,
-            "changeTime": 1593071959663,
-            "contentHash": "dd4bc5d00d5b87ac9dcfa94ec543d354d095c25c"
+            "modifiedTime": 1593072938176,
+            "changeTime": 1593072938176,
+            "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717"
         }
     ],
     [
         "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\appMenus",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\appMenus",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1593071959678,
             "changeTime": 1593071959678,
-            "contentHash": "7c65d70563206b380e20367663fe2cc611131a2d"
+            "contentHash": "7c65d70563206b380e20367663fe2cc611131a2d",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 8770,
+            "modifiedTime": 1593072937879,
+            "changeTime": 1593072937879,
+            "contentHash": "ee346fb875f0ec6919772688db678d6a19d14955"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 8770,
+            "modifiedTime": 1593072937980,
+            "changeTime": 1593072937980,
+            "contentHash": "ee346fb875f0ec6919772688db678d6a19d14955"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 9108,
+            "modifiedTime": 1593072938177,
+            "changeTime": 1593072938177,
+            "contentHash": "dc254d4290f1a7ad9bd06fc64707bddec3bd8cd0"
         }
     ]
 ]
