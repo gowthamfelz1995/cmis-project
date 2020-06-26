@@ -10,8 +10,8 @@ export default class ServicePlanning extends NavigationMixin(LightningElement) {
     error;
     recordTypeIdValue = ''
     serviceObj = SERVICE_RECORD
-   
     serviceId;
+    refferalId = 'a026D000002cDGhQAM';
     handleSuccess(event) {
         this.serviceId = event.detail.id;
         console.log("this.serviceId-->"+this.serviceId)
@@ -24,6 +24,16 @@ export default class ServicePlanning extends NavigationMixin(LightningElement) {
             }
         });
         console.log("this.serviceId-->"+this.serviceId)
+    }
+    navToRefferal(){
+        this[NavigationMixin.Navigate]({
+            type: 'standard__recordPage',
+            attributes: {
+                recordId:  this.refferalId,
+                objectApiName: 'AG_Referral__c',
+                actionName: 'view'
+            }
+        });
     }
 
     @wire(getPicklistValues, {
