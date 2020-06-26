@@ -161,7 +161,11 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Assessments</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts>
+        <searchResultsAdditionalFields>AG_Referral__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>AG_Assessment_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>AG_Education_Details__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
