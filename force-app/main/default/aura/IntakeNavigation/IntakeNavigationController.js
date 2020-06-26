@@ -3,7 +3,7 @@
         let recordId = component.get("v.recordId") || false;
 
         if (recordId) {
-            helper.navigateToReviewDocument(component);
+            helper.navigateToParent(component);
         } else {
             var toastEvent = $A.get("e.force:showToast");
             toastEvent.setParams({
