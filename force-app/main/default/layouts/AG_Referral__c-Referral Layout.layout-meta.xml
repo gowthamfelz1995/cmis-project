@@ -87,11 +87,6 @@
     <platformActionList>
         <actionListContext>Record</actionListContext>
         <platformActionListItems>
-            <actionName>Submit</actionName>
-            <actionType>StandardButton</actionType>
-            <sortOrder>0</sortOrder>
-        </platformActionListItems>
-        <platformActionListItems>
             <actionName>AG_Referral__c.AG_Waitlist</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>1</sortOrder>
@@ -102,9 +97,19 @@
             <sortOrder>2</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>AG_Referral__c.AG_Discharge</actionName>
+            <actionName>Submit</actionName>
+            <actionType>StandardButton</actionType>
+            <sortOrder>0</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>AG_Referral__c.AG_Assessment</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>3</sortOrder>
+        </platformActionListItems>
+        <platformActionListItems>
+            <actionName>AG_Referral__c.AG_Discharge</actionName>
+            <actionType>QuickAction</actionType>
+            <sortOrder>4</sortOrder>
         </platformActionListItems>
     </platformActionList>
     <relatedLists>

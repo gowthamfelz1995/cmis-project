@@ -32,6 +32,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>AG_Assessment__c.AG_Service_Provider__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>AG_Assessment__c.AG_Service__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -125,6 +130,9 @@
         <field>AG_Service__c.AG_To_Date__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>AG_Assessment__c-Assessment Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>AG_Intake__c-Intake Layout</layout>
     </layoutAssignments>

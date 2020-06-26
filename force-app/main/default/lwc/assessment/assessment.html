@@ -1,0 +1,40 @@
+<template>
+    <lightning-card title="Assessment" icon-name="action:new_notebook">
+        <lightning-layout vertical-align="center" class="slds-p-around_medium">
+            <lightning-layout-item size="12">
+                <lightning-record-edit-form object-api-name={assessment} onsuccess={handleSuccess}>
+                    <lightning-messages>
+                    </lightning-messages>
+
+                    <lightning-input-field field-name="AG_Referral__c" value={recordId}>
+                    </lightning-input-field>
+
+                    <lightning-input-field field-name="AG_Service_Provider__c" value={serviceProvider}>
+                    </lightning-input-field>
+
+                    <lightning-input-field field-name="AG_Service__c">
+                    </lightning-input-field>
+
+                    <lightning-input-field field-name="AG_Assessment_Date__c">
+                    </lightning-input-field>
+
+                    <lightning-input-field field-name="AG_Education_Details__c">
+                    </lightning-input-field>
+
+                    <lightning-input-field field-name="AG_Pshycology_Details__c">
+                    </lightning-input-field>
+
+                    <div class="footer">
+                        <lightning-button class="slds-m-top_small" type="submit" label="Save" variant="brand">
+                        </lightning-button>
+                        &nbsp; &nbsp;
+                        <lightning-button class="slds-m-top_small" label="Cancel" variant="neutral"
+                            onclick={handleCancel}>
+                        </lightning-button>
+                    </div>
+
+                </lightning-record-edit-form>
+            </lightning-layout-item>
+        </lightning-layout>
+    </lightning-card>
+</template>

@@ -54,4 +54,17 @@ public with sharing class AG_Referral_CL {
             return '{"success": false, "message": "'+e.getMessage()+'"}';
         }
     }
+
+    @AuraEnabled
+    public static string getServiceProviderForAssessment( Id recordId){
+        try{
+            AG_Intake__c intake = [SELECT AG_Service_Provider__c  FROM AG_Intake__c WHERE AG_Referral__c =: recordId];
+            return '{"success" : true, "data" : '+JSON.serialize(intake)+'}';
+        }
+        catch(Exception e){
+            System.debug(e.getLineNumber());
+            System.debug(e.getMessage());
+            return '{"success": false, "message": "'+e.getMessage()+'"}';
+        }
+    }
 }

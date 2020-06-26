@@ -3,6 +3,12 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
+            "c/assessment": [
+                "assessment/assessment.js"
+            ],
+            "c/discharge": [
+                "discharge/discharge.js"
+            ],
             "c/intake": [
                 "intake/intake.js"
             ],
@@ -14,12 +20,6 @@
             ],
             "c/waitList": [
                 "waitList/waitList.js"
-            ],
-            "c/WaitList": [
-                "WaitList/WaitList.js"
-            ],
-            "c/discharge": [
-                "discharge/discharge.js"
             ]
         }
     },
