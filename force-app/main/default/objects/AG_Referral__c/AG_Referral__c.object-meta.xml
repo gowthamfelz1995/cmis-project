@@ -167,7 +167,12 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Referrals</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts>
+        <searchResultsAdditionalFields>AG_Source_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>AG_Date_Of_Referral__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>AG_Phone_Number__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>AG_Status__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <startsWith>Vowel</startsWith>
     <visibility>Public</visibility>
