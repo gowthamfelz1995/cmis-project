@@ -107,6 +107,11 @@
                 <default>false</default>
                 <label>Education</label>
             </value>
+            <value>
+                <fullName>Justice Related Services</fullName>
+                <default>false</default>
+                <label>Justice Related Services</label>
+            </value>
         </valueSetDefinition>
         <valueSettings>
             <controllingFieldValue>Basic Needs</controllingFieldValue>
@@ -148,16 +153,19 @@
         <valueSettings>
             <controllingFieldValue>Adults</controllingFieldValue>
             <controllingFieldValue>Children and Families</controllingFieldValue>
+            <controllingFieldValue>Person with Special Needs</controllingFieldValue>
             <valueName>Drugs and Alcohols</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Adults</controllingFieldValue>
             <controllingFieldValue>Children and Families</controllingFieldValue>
+            <controllingFieldValue>Person with Special Needs</controllingFieldValue>
             <valueName>Incarceration Support</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Adults</controllingFieldValue>
             <controllingFieldValue>Children and Families</controllingFieldValue>
+            <controllingFieldValue>Person with Special Needs</controllingFieldValue>
             <valueName>Intellectual Disability / Autism</valueName>
         </valueSettings>
         <valueSettings>
@@ -168,11 +176,13 @@
         <valueSettings>
             <controllingFieldValue>Adults</controllingFieldValue>
             <controllingFieldValue>Children and Families</controllingFieldValue>
+            <controllingFieldValue>Person with Special Needs</controllingFieldValue>
             <valueName>Mental Health</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Adults</controllingFieldValue>
             <controllingFieldValue>Children and Families</controllingFieldValue>
+            <controllingFieldValue>Person with Special Needs</controllingFieldValue>
             <valueName>Safety Tips</valueName>
         </valueSettings>
         <valueSettings>
@@ -181,11 +191,16 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Children and Families</controllingFieldValue>
+            <controllingFieldValue>Person with Special Needs</controllingFieldValue>
             <valueName>Developmental Delays Disabilities</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Children and Families</controllingFieldValue>
             <valueName>Child Protection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Person with Special Needs</controllingFieldValue>
+            <valueName>Justice Related Services</valueName>
         </valueSettings>
     </valueSet>
 </CustomField>
