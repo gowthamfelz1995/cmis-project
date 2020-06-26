@@ -11,6 +11,12 @@
             ],
             "c/servicePlanning": [
                 "servicePlanning/servicePlanning.js"
+            ],
+            "c/waitList": [
+                "waitList/waitList.js"
+            ],
+            "c/WaitList": [
+                "WaitList/WaitList.js"
             ]
         }
     },

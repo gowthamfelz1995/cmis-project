@@ -76,9 +76,9 @@
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\aura",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1593095508394,
-            "changeTime": 1593095508394,
-            "contentHash": "bd719d996373151a673274723648ec94bd7dd775",
+            "modifiedTime": 1593151877267,
+            "changeTime": 1593151877267,
+            "contentHash": "7814ecc343ae0f426eb334d78b84c2c370cbc5bf",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -135,7 +135,7 @@
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\aura\\IntakeNavigation\\IntakeNavigation.cmp-meta.xml",
             "isDirectory": false,
             "size": 228,
-            "modifiedTime": 1593067520897,
+            "modifiedTime": 1593150870328,
             "changeTime": 1593067520897,
             "contentHash": "228bed42f73b74ee40f064d170cb86f4a1f64517",
             "isMetadataFile": true,
@@ -164,14 +164,13 @@
         {
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\aura\\IntakeNavigation\\IntakeNavigation.design",
             "isDirectory": false,
-            "size": 40,
-            "modifiedTime": 1593067520919,
-            "changeTime": 1593067520919,
-            "contentHash": "c5618bc7228e29c74b07b78fd040e05ae8a541ec",
+            "size": 68,
+            "modifiedTime": 1593151011128,
+            "changeTime": 1593151011128,
+            "contentHash": "e332f505e57e28d5180eac7841644105e0c1b9e3",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
@@ -194,14 +193,13 @@
         {
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\aura\\IntakeNavigation\\IntakeNavigationController.js",
             "isDirectory": false,
-            "size": 489,
-            "modifiedTime": 1593067520924,
-            "changeTime": 1593067520924,
-            "contentHash": "a2434ffbd91654bd17a80b557ba0d2a6783d07ff",
+            "size": 481,
+            "modifiedTime": 1593151645856,
+            "changeTime": 1593151645856,
+            "contentHash": "df2d40e727e93c3476856c5314c415e2f746415a",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
@@ -209,14 +207,13 @@
         {
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\aura\\IntakeNavigation\\IntakeNavigationHelper.js",
             "isDirectory": false,
-            "size": 339,
-            "modifiedTime": 1593067520926,
-            "changeTime": 1593067520926,
-            "contentHash": "9fdda1cbccee8d0bdf4ecb92828673eddd307505",
+            "size": 331,
+            "modifiedTime": 1593151641535,
+            "changeTime": 1593151641535,
+            "contentHash": "8434970fcc111dc6883fe95993d5bdc2748479e7",
             "isMetadataFile": false,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
@@ -240,9 +237,9 @@
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\lwc",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1593082428455,
-            "changeTime": 1593082428455,
-            "contentHash": "ac121cdefed75d79765a1a6fe5765f231e830b5a",
+            "modifiedTime": 1593151818913,
+            "changeTime": 1593151818913,
+            "contentHash": "bdc66cb0348d132810d6cdcccf28485490d05a72",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -268,10 +265,10 @@
         {
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\lwc\\intake\\intake.html",
             "isDirectory": false,
-            "size": 342,
-            "modifiedTime": 1593092566698,
-            "changeTime": 1593092566698,
-            "contentHash": "2c7250f9050710c5e95eb02c5aac0b09744e23f8",
+            "size": 1648,
+            "modifiedTime": 1593156635858,
+            "changeTime": 1593156635858,
+            "contentHash": "a23e809cc24a1a985caf5f48cdbd78980b3a180d",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -282,10 +279,10 @@
         {
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\lwc\\intake\\intake.js",
             "isDirectory": false,
-            "size": 1605,
-            "modifiedTime": 1593096982260,
-            "changeTime": 1593094136276,
-            "contentHash": "e312b9766aea367ef9ad62b17e2295a55bf5b9ef",
+            "size": 957,
+            "modifiedTime": 1593156683804,
+            "changeTime": 1593156683804,
+            "contentHash": "7f67bfbbd294ee1bc9574fd4343b3a98611c8fca",
             "isMetadataFile": false,
             "state": "u",
             "isWorkspace": false
@@ -296,14 +293,13 @@
         {
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\lwc\\intake\\intake.js-meta.xml",
             "isDirectory": false,
-            "size": 438,
-            "modifiedTime": 1593067332305,
-            "changeTime": 1593067332305,
-            "contentHash": "8d16070a88276068dd7a0d69fff7ec14c3a0da6e",
+            "size": 479,
+            "modifiedTime": 1593151194485,
+            "changeTime": 1593151194485,
+            "contentHash": "0524798e33826dd2e19bd3a4eda6b6475e09b8b0",
             "isMetadataFile": true,
             "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
+            "isWorkspace": false
         }
     ],
     [
@@ -1235,7 +1231,7 @@
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\layouts",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1593084333568,
+            "modifiedTime": 1593154948118,
             "changeTime": 1593084333568,
             "contentHash": "44c051a7884c58dfc1892eb63859fd86450a94e9",
             "isMetadataFile": false,
@@ -1261,7 +1257,7 @@
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\lwc\\servicePlanning",
             "isDirectory": true,
             "size": 0,
-            "modifiedTime": 1593082428477,
+            "modifiedTime": 1593154948125,
             "changeTime": 1593082428477,
             "contentHash": "acc552a5d6be9f3e528e86e6986c45ab79df44c6",
             "isMetadataFile": false,
@@ -1286,10 +1282,10 @@
         {
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\layouts\\AG_Service__c-Service Layout.layout-meta.xml",
             "isDirectory": false,
-            "size": 2877,
-            "modifiedTime": 1593082428452,
-            "changeTime": 1593082428452,
-            "contentHash": "5a923cff13661407baccf6bf9cfb8060b0f0be2e",
+            "size": 3618,
+            "modifiedTime": 1593154948119,
+            "changeTime": 1593154948119,
+            "contentHash": "d5aeda253dc7d7590c56066bbe8ad8a2fb4c0832",
             "isMetadataFile": true,
             "state": "u"
         }
@@ -1312,10 +1308,10 @@
         {
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\lwc\\servicePlanning\\servicePlanning.html",
             "isDirectory": false,
-            "size": 658,
-            "modifiedTime": 1593082428456,
-            "changeTime": 1593082428456,
-            "contentHash": "af37d0318c3f0f2eb54da105a31f288d27774dbf",
+            "size": 1893,
+            "modifiedTime": 1593154948122,
+            "changeTime": 1593154948122,
+            "contentHash": "3a85a2825829c01fa7d13390c0308fbb08dbf928",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -1325,10 +1321,10 @@
         {
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\lwc\\servicePlanning\\servicePlanning.js",
             "isDirectory": false,
-            "size": 309,
-            "modifiedTime": 1593082428476,
-            "changeTime": 1593082428476,
-            "contentHash": "496ff781b407f3cc7130224f41ebbb9b2582099f",
+            "size": 2445,
+            "modifiedTime": 1593154948125,
+            "changeTime": 1593154948125,
+            "contentHash": "01addaf2cfc10009fce0852a7754062c111ce849",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -1338,10 +1334,10 @@
         {
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\lwc\\servicePlanning\\servicePlanning.js-meta.xml",
             "isDirectory": false,
-            "size": 422,
-            "modifiedTime": 1593082428478,
-            "changeTime": 1593082428478,
-            "contentHash": "1e2db2876688c40220f077ec96ce7774a67c3667",
+            "size": 474,
+            "modifiedTime": 1593151202300,
+            "changeTime": 1593151202300,
+            "contentHash": "452532673a87b3a44b144d0d35a230a1d62dc46b",
             "isMetadataFile": true,
             "state": "u"
         }
@@ -1481,10 +1477,10 @@
         {
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\classes\\AG_Referral_CL.cls",
             "isDirectory": false,
-            "size": 971,
-            "modifiedTime": 1593096281005,
-            "changeTime": 1593096281005,
-            "contentHash": "3331ac620d378fc76941a513c6c487341455c0db",
+            "size": 1640,
+            "modifiedTime": 1593154242676,
+            "changeTime": 1593154242676,
+            "contentHash": "6f2435092b4a7a62c1bb8e3a285ef975f1dd3efe",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -1518,14 +1514,14 @@
     [
         "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\aura\\ReferralPath\\ReferralPath.cmp",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\aura\\ReferralPath\\ReferralPath.cmp",
             "isDirectory": false,
+            "size": 1854,
+            "modifiedTime": 1593150699892,
+            "changeTime": 1593150699892,
+            "contentHash": "f523049c11ce1cf93790c214c09400c5f6e5b2eb",
             "isMetadataFile": false,
-            "size": 1769,
-            "modifiedTime": 1593100753646,
-            "changeTime": 1593100753646,
-            "contentHash": "4c4de566ecdd879e7cc1249ddfb23fd1e28dcc41"
+            "state": "u"
         }
     ],
     [
@@ -1559,10 +1555,10 @@
         {
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\aura\\ReferralPath\\ReferralPath.design",
             "isDirectory": false,
-            "size": 40,
-            "modifiedTime": 1593095508422,
-            "changeTime": 1593095508422,
-            "contentHash": "c5618bc7228e29c74b07b78fd040e05ae8a541ec",
+            "size": 64,
+            "modifiedTime": 1593150930529,
+            "changeTime": 1593150930529,
+            "contentHash": "a214c4782606e0fdede06d450d8162e466d946c5",
             "isMetadataFile": false,
             "state": "u"
         }
@@ -1596,14 +1592,14 @@
     [
         "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\aura\\ReferralPath\\ReferralPathHelper.js",
         {
-            "state": "u",
             "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\aura\\ReferralPath\\ReferralPathHelper.js",
             "isDirectory": false,
+            "size": 1665,
+            "modifiedTime": 1593150226400,
+            "changeTime": 1593150226400,
+            "contentHash": "03aa48efb8c532caab2a05b1d17112d1afc044ff",
             "isMetadataFile": false,
-            "size": 1667,
-            "modifiedTime": 1593100711345,
-            "changeTime": 1593100711345,
-            "contentHash": "eec6ea50f0b90bbee3ad26b2054dbdd5a939362c"
+            "state": "u"
         }
     ],
     [
@@ -1616,6 +1612,188 @@
             "changeTime": 1593095508428,
             "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b",
             "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\aura\\WaitListNavigation",
+        {
+            "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\aura\\WaitListNavigation",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1593151877281,
+            "changeTime": 1593151877281,
+            "contentHash": "5b86d8502114b71bea32412ecd1128e80741187e",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\lwc\\waitList",
+        {
+            "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\lwc\\waitList",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1593151818918,
+            "changeTime": 1593151818918,
+            "contentHash": "110fbf7c33e496711638becaa233890c84260596",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\aura\\WaitListNavigation\\WaitListNavigation.auradoc",
+        {
+            "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\aura\\WaitListNavigation\\WaitListNavigation.auradoc",
+            "isDirectory": false,
+            "size": 209,
+            "modifiedTime": 1593151877271,
+            "changeTime": 1593151877271,
+            "contentHash": "fd7f560d82324d6a8255c8c6ebf60698f5f93f1e",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\aura\\WaitListNavigation\\WaitListNavigation.cmp",
+        {
+            "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\aura\\WaitListNavigation\\WaitListNavigation.cmp",
+            "isDirectory": false,
+            "size": 368,
+            "modifiedTime": 1593151899303,
+            "changeTime": 1593151899303,
+            "contentHash": "44fa4aa174a301f85142adeb417499aebf5b78d0",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\aura\\WaitListNavigation\\WaitListNavigation.cmp-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\aura\\WaitListNavigation\\WaitListNavigation.cmp-meta.xml",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1593151877268,
+            "changeTime": 1593151877268,
+            "contentHash": "228bed42f73b74ee40f064d170cb86f4a1f64517",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\aura\\WaitListNavigation\\WaitListNavigation.css",
+        {
+            "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\aura\\WaitListNavigation\\WaitListNavigation.css",
+            "isDirectory": false,
+            "size": 10,
+            "modifiedTime": 1593151877275,
+            "changeTime": 1593151877275,
+            "contentHash": "44063bf628f237edaa1f3f358714dd40ac321703",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\aura\\WaitListNavigation\\WaitListNavigation.design",
+        {
+            "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\aura\\WaitListNavigation\\WaitListNavigation.design",
+            "isDirectory": false,
+            "size": 70,
+            "modifiedTime": 1593151963736,
+            "changeTime": 1593151963736,
+            "contentHash": "0f18b07b0043c40cf32361d392bc4d60e0042ae2",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\aura\\WaitListNavigation\\WaitListNavigation.svg",
+        {
+            "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\aura\\WaitListNavigation\\WaitListNavigation.svg",
+            "isDirectory": false,
+            "size": 664,
+            "modifiedTime": 1593151877278,
+            "changeTime": 1593151877278,
+            "contentHash": "6a3a9c1d5556db4bde25af9ef0957c47feb17739",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\aura\\WaitListNavigation\\WaitListNavigationController.js",
+        {
+            "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\aura\\WaitListNavigation\\WaitListNavigationController.js",
+            "isDirectory": false,
+            "size": 481,
+            "modifiedTime": 1593151924844,
+            "changeTime": 1593151924844,
+            "contentHash": "df2d40e727e93c3476856c5314c415e2f746415a",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\aura\\WaitListNavigation\\WaitListNavigationHelper.js",
+        {
+            "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\aura\\WaitListNavigation\\WaitListNavigationHelper.js",
+            "isDirectory": false,
+            "size": 333,
+            "modifiedTime": 1593151941801,
+            "changeTime": 1593151941801,
+            "contentHash": "d43a6bcda886f0e14b40675c7c5824a663e52369",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\aura\\WaitListNavigation\\WaitListNavigationRenderer.js",
+        {
+            "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\aura\\WaitListNavigation\\WaitListNavigationRenderer.js",
+            "isDirectory": false,
+            "size": 50,
+            "modifiedTime": 1593151877281,
+            "changeTime": 1593151877281,
+            "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\lwc\\waitList\\waitList.html",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\lwc\\waitList\\waitList.html",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 23,
+            "modifiedTime": 1593157324627,
+            "changeTime": 1593157324627,
+            "contentHash": "efca0ab5c8522eb7c75dac13fa0042018b0d1e99"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\lwc\\waitList\\waitList.js",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\lwc\\waitList\\waitList.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 756,
+            "modifiedTime": 1593157359990,
+            "changeTime": 1593157359990,
+            "contentHash": "63eb57fb2e7151d8a1a3dac19f7acd14c6130083"
+        }
+    ],
+    [
+        "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\lwc\\waitList\\waitList.js-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\dell\\Downloads\\docs\\cmis-project-master\\cmis-project\\force-app\\main\\default\\lwc\\waitList\\waitList.js-meta.xml",
+            "isDirectory": false,
+            "size": 481,
+            "modifiedTime": 1593151998221,
+            "changeTime": 1593151998221,
+            "contentHash": "fbbedce542be862624cb8db56de5611b4076434b",
+            "isMetadataFile": true,
             "state": "u"
         }
     ]

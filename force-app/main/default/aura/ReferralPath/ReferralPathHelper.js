@@ -38,7 +38,7 @@
         } else if (status == 'In Service') {
             currentStatus = 'inService';
         } else if (status == "Approved") {
-            currentStatus = "approved";
+            currentStatus = "inTake";
         } else if (status == 'Discharged') {
             currentStatus = 'AllDone';
         }

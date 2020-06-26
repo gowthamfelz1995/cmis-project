@@ -21,7 +21,23 @@ public with sharing class AG_Referral_CL {
         catch(Exception e){
             System.debug(e.getLineNumber());
             System.debug(e.getMessage());
+            return null;
         }
-        return null;
+    }
+
+    @AuraEnabled(cacheable=true)
+    public static string changeStatusOfReferral( Id recordId){
+        try{
+            System.debug('recordId=====>' +recordId);
+            AG_Referral__c referral = [SELECT Id, AG_Status__c  FROM AG_Referral__c WHERE Id =: recordId];
+            referral.AG_Status__c = 'WaitListed';
+            update referral;
+            return '{"success" : true, "message" : "The referral record waitlisted successfully"}';
+        }
+        catch(Exception e){
+            System.debug(e.getLineNumber());
+            System.debug(e.getMessage());
+            return '{"success": false, "message": "'+e.getMessage()+'"}';
+        }
     }
 }
