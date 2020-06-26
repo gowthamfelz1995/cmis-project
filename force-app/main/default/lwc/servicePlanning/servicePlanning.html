@@ -1,11 +1,10 @@
 <template>
     <lightning-card title="Service Planning" icon-name="custom:custom19">
-        <lightning-layout vertical-align="center">
-            <lightning-layout-item size="4">
-                <lightning-input type="date" name="input1" label="Enter a date" onchange={handleFromDateChanges}></lightning-input> 
-            </lightning-layout-item>
-            <lightning-layout-item padding="around-small" size="4">
-                <lightning-input type="date" name="input1" onchange={handleToDateChanges} label="Enter a date"></lightning-input>
+        <lightning-layout vertical-align="center" class="slds-p-around_xx-large">
+            <lightning-layout-item size="12">
+                <lightning-record-form object-api-name={serviceObj} layout-type="Full" columns="2"
+                    onsuccess={handleFormSubmitted}>
+                </lightning-record-form>
             </lightning-layout-item>
         </lightning-layout>
     </lightning-card>
