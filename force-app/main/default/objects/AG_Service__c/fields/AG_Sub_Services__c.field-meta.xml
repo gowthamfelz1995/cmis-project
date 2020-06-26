@@ -8,6 +8,7 @@
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>
+        <controllingField>AG_Service_Type__c</controllingField>
         <restricted>true</restricted>
         <valueSetDefinition>
             <sorted>false</sorted>
@@ -66,6 +67,125 @@
                 <default>false</default>
                 <label>Parent and Caregiver Support</label>
             </value>
+            <value>
+                <fullName>Health Insurance</fullName>
+                <default>false</default>
+                <label>Health Insurance</label>
+            </value>
+            <value>
+                <fullName>Home Repair and Safety</fullName>
+                <default>false</default>
+                <label>Home Repair and Safety</label>
+            </value>
+            <value>
+                <fullName>Transportation</fullName>
+                <default>false</default>
+                <label>Transportation</label>
+            </value>
+            <value>
+                <fullName>Utility Assistance</fullName>
+                <default>false</default>
+                <label>Utility Assistance</label>
+            </value>
+            <value>
+                <fullName>Food Assistance</fullName>
+                <default>false</default>
+                <label>Food Assistance</label>
+            </value>
+            <value>
+                <fullName>Housing and Homeless</fullName>
+                <default>false</default>
+                <label>Housing and Homeless</label>
+            </value>
+            <value>
+                <fullName>Child Protection</fullName>
+                <default>false</default>
+                <label>Child Protection</label>
+            </value>
+            <value>
+                <fullName>Education</fullName>
+                <default>false</default>
+                <label>Education</label>
+            </value>
         </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Basic Needs</controllingFieldValue>
+            <valueName>Child Care</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Needs</controllingFieldValue>
+            <valueName>Employement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Needs</controllingFieldValue>
+            <controllingFieldValue>Children and Families</controllingFieldValue>
+            <valueName>Parent and Caregiver Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Needs</controllingFieldValue>
+            <valueName>Health Insurance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Needs</controllingFieldValue>
+            <valueName>Home Repair and Safety</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Needs</controllingFieldValue>
+            <valueName>Transportation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Needs</controllingFieldValue>
+            <valueName>Utility Assistance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Needs</controllingFieldValue>
+            <valueName>Food Assistance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Needs</controllingFieldValue>
+            <valueName>Housing and Homeless</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Adults</controllingFieldValue>
+            <controllingFieldValue>Children and Families</controllingFieldValue>
+            <valueName>Drugs and Alcohols</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Adults</controllingFieldValue>
+            <controllingFieldValue>Children and Families</controllingFieldValue>
+            <valueName>Incarceration Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Adults</controllingFieldValue>
+            <controllingFieldValue>Children and Families</controllingFieldValue>
+            <valueName>Intellectual Disability / Autism</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Adults</controllingFieldValue>
+            <controllingFieldValue>Children and Families</controllingFieldValue>
+            <valueName>LGBTQ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Adults</controllingFieldValue>
+            <controllingFieldValue>Children and Families</controllingFieldValue>
+            <valueName>Mental Health</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Adults</controllingFieldValue>
+            <controllingFieldValue>Children and Families</controllingFieldValue>
+            <valueName>Safety Tips</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Adults</controllingFieldValue>
+            <valueName>Veterans Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Children and Families</controllingFieldValue>
+            <valueName>Developmental Delays Disabilities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Children and Families</controllingFieldValue>
+            <valueName>Child Protection</valueName>
+        </valueSettings>
     </valueSet>
 </CustomField>

@@ -5,6 +5,10 @@
         <default>false</default>
         <visible>false</visible>
     </applicationVisibilities>
+    <classAccesses>
+        <apexClass>AG_Referral_CL</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>true</custom>
     <fieldPermissions>
         <editable>false</editable>
@@ -82,9 +86,9 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>AG_Service__c.AG_Description__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -116,6 +120,9 @@
         <field>AG_Service__c.AG_To_Date__c</field>
         <readable>false</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>AG_Intake__c-Intake Layout</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>AG_Referral__c-Referral Layout</layout>
     </layoutAssignments>
