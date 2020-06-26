@@ -1,7 +1,8 @@
-import { LightningElement, wire,track } from 'lwc';
+import { LightningElement, wire,track , api } from 'lwc';
 import { NavigationMixin } from 'lightning/navigation';
 import { ShowToastEvent } from 'lightning/platformShowToastEvent';
 export default class ServicePlanning extends NavigationMixin(LightningElement) {
+    @api recordId;
     refferalId = 'a026D000002cDGhQAM';
     handleSuccess(event) {
         this.showNotification();
@@ -19,7 +20,7 @@ export default class ServicePlanning extends NavigationMixin(LightningElement) {
         this[NavigationMixin.Navigate]({
             type: 'standard__recordPage',
             attributes: {
-                recordId:  this.refferalId,
+                recordId:  this.recordId,
                 objectApiName: 'AG_Referral__c',
                 actionName: 'view'
             }

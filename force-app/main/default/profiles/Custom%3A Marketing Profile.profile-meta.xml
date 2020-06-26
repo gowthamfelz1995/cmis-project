@@ -141,11 +141,7 @@
         <tab>AG_Referral__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
-    <tabVisibilities>
-        <tab>AG_Service_Planning</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
+   <tabVisibilities>
         <tab>AG_Service__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
