@@ -1,26 +1,39 @@
 import {
     LightningElement,
-    track,
-    wire
+    api
 } from 'lwc';
 
 import {
     NavigationMixin
 } from 'lightning/navigation';
 
+import {
+    ShowToastEvent
+} from 'lightning/platformShowToastEvent';
 
-import changeStatusOfReferral from '@salesforce/apex/AG_Referral_CL.changeStatusOfReferral';
+import waitListReferral from '@salesforce/apex/AG_Referral_CL.waitListReferral';
 
 export default class WaitList extends NavigationMixin(LightningElement) {
 
-    @track recordId;
-
-    @wire(changeStatusOfReferral, {
-        recordId: '$recordId'
-    }) referral;
+    @api recordId;
 
     connectedCallback() {
-        console.log("Entered");
+        waitListReferral({
+                recordId: this.recordId
+            })
+            .then((result) => {
+                const successEvent = new ShowToastEvent({
+                    title: "Success",
+                    message: "The referral record waitlisted successfully",
+                    variant: "success"
+                });
+                this.dispatchEvent(successEvent);
+            })
+            .catch((error) => {
+                this.message = undefined;
+                this.error = error;
+            });
+        this.handleCancel();
     }
 
     handleCancel() {
