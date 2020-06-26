@@ -12,7 +12,7 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>numVisibleActions</name>
-                <value>3</value>
+                <value>5</value>
             </componentInstanceProperties>
             <componentName>force:highlightsPanel</componentName>
         </componentInstances>
@@ -238,34 +238,6 @@
                 <value>true</value>
             </componentInstanceProperties>
             <componentName>force:relatedListSingleContainer</componentName>
-            <visibilityRule>
-                <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
-                <criteria>
-                    <leftValue>{!Record.AG_Status__c}</leftValue>
-                    <operator>EQUAL</operator>
-                    <rightValue>In Approval</rightValue>
-                </criteria>
-                <criteria>
-                    <leftValue>{!Record.AG_Status__c}</leftValue>
-                    <operator>EQUAL</operator>
-                    <rightValue>Approved</rightValue>
-                </criteria>
-                <criteria>
-                    <leftValue>{!Record.AG_Status__c}</leftValue>
-                    <operator>EQUAL</operator>
-                    <rightValue>Rejected</rightValue>
-                </criteria>
-                <criteria>
-                    <leftValue>{!Record.AG_Status__c}</leftValue>
-                    <operator>EQUAL</operator>
-                    <rightValue>Discharged</rightValue>
-                </criteria>
-                <criteria>
-                    <leftValue>{!Record.AG_Status__c}</leftValue>
-                    <operator>EQUAL</operator>
-                    <rightValue>Waitlisted</rightValue>
-                </criteria>
-            </visibilityRule>
         </componentInstances>
         <mode>Replace</mode>
         <name>sidebar</name>
