@@ -40,4 +40,17 @@ export default class Intake extends LightningElement {
         });
         this.dispatchEvent(successEvent);
     }
+
+    handleCancel(event) {
+        console.log("Entered cancel");
+        console.log("Event===>" +event);
+        console.log("recordId===>" + this.recordId);
+        this[NavigationMixin.Navigate]({
+            type: 'standard__recordPage',
+            attributes: {
+                recordId: this.recordId,
+                objectApiName: 'AG_Referral__c',
+            }
+        });
+    }
 }
