@@ -1232,14 +1232,14 @@
     [
         "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/lwc/servicePlanning/servicePlanning.html",
         {
-            "state": "u",
             "sourcePath": "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/lwc/servicePlanning/servicePlanning.html",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 504,
             "modifiedTime": 1593144811490,
             "changeTime": 1593144811490,
-            "contentHash": "10ad63f5cd876e10e74b350499aecc896925ce80"
+            "contentHash": "10ad63f5cd876e10e74b350499aecc896925ce80",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -1297,14 +1297,14 @@
     [
         "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/layouts/AG_Service__c-Service Layout.layout-meta.xml",
         {
+            "state": "u",
             "sourcePath": "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/layouts/AG_Service__c-Service Layout.layout-meta.xml",
             "isDirectory": false,
-            "size": 2799,
-            "modifiedTime": 1593081840205,
-            "changeTime": 1593081840205,
-            "contentHash": "1baa65419f5a7e48d42bb09a0deb0d68047fd0a6",
             "isMetadataFile": true,
-            "state": "u"
+            "size": 3520,
+            "modifiedTime": 1593145117612,
+            "changeTime": 1593145117612,
+            "contentHash": "7199cb518ce0d2371f773f4ee19f8a6ab33c1071"
         }
     ],
     [
