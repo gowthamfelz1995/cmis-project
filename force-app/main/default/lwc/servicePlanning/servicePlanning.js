@@ -2,7 +2,8 @@ import { LightningElement, wire,track } from 'lwc';
 import SERVICE_RECORD from '@salesforce/schema/AG_Service__c';
 import SERVICE_TYPE_FIELD from '@salesforce/schema/AG_Service__c.AG_Service_Type__c';
 import { getPicklistValuesByRecordType,getPicklistValues, getObjectInfo } from 'lightning/uiObjectInfoApi'; 
-export default class ServicePlanning extends LightningElement {
+import { NavigationMixin } from 'lightning/navigation';
+export default class ServicePlanning extends NavigationMixin(LightningElement) {
     fromDate = ''
     toDate = ''
     treeModel;
@@ -10,33 +11,20 @@ export default class ServicePlanning extends LightningElement {
     recordTypeIdValue = ''
     serviceObj = SERVICE_RECORD
    
-
-   
-    // @wire (getObjectInfo, {objectApiName: SERVICE_RECORD})
-    // objectInfo({
-    //     error,data
-    // })
-    // {if(data){
-    //     console.log(data.defaultRecordTypeId); 
-    // } else if(error){
-    //     console.log(error);
-    // }}
- 
-    // @wire(getPicklistValuesByRecordType, {
-    //     objectApiName: SERVICE_RECORD,
-    //     recordTypeId: '012000000000000AAA'
-    // })
-    // wiredValues({ error, data }) {
-    //     if (data) {
-    //         console.log('error-->'+JSON.stringify(data));
-    //         this.treeModel = this.buildTreeModel(data.picklistFieldValues);
-    //         this.error = undefined;
-    //     } else {
-    //         console.log('error-->'+error);
-    //         this.error = error;
-    //         this.treeModel = undefined;
-    //     }
-    // }
+    serviceId;
+    handleSuccess(event) {
+        this.serviceId = event.detail.id;
+        console.log("this.serviceId-->"+this.serviceId)
+        this[NavigationMixin.Navigate]({
+            type: 'standard__recordPage',
+            attributes: {
+                recordId:  this.serviceId,
+                objectApiName: 'AG_Service__c',
+                actionName: 'view'
+            }
+        });
+        console.log("this.serviceId-->"+this.serviceId)
+    }
 
     @wire(getPicklistValues, {
         recordTypeId: '012000000000000AAA',
