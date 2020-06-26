@@ -41,6 +41,11 @@
                 <default>false</default>
                 <label>In Approval</label>
             </value>
+            <value>
+                <fullName>In Service</fullName>
+                <default>false</default>
+                <label>In Service</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

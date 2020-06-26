@@ -17,6 +17,9 @@
             ],
             "c/WaitList": [
                 "WaitList/WaitList.js"
+            ],
+            "c/discharge": [
+                "discharge/discharge.js"
             ]
         }
     },
