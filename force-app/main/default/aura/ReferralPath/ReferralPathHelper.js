@@ -35,10 +35,12 @@
             currentStatus = 'inApproval';
         } else if (status == 'Waitlisted') {
             currentStatus = 'waitlisted';
-        } else if (status == 'In Service') {
-            currentStatus = 'inService';
         } else if (status == "Approved") {
             currentStatus = "inTake";
+        } else if (status == "In Assessment") {
+            currentStatus = "assessment";
+        } else if (status == 'In Service') {
+            currentStatus = 'inService';
         } else if (status == 'Discharged') {
             currentStatus = 'AllDone';
         }

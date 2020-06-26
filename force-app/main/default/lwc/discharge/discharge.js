@@ -20,15 +20,16 @@ export default class Discharge extends NavigationMixin(LightningElement) {
                 recordId: this.recordId
             })
             .then((result) => {
+                const response = JSON.parse(result);
                 const successEvent = new ShowToastEvent({
                     title: "Success",
-                    message: "The referral record discharged successfully",
+                    message: response.message,
                     variant: "success"
                 });
                 this.dispatchEvent(successEvent);
             })
             .catch((error) => {
-                this.message = undefined;
+                this.message = response.message;
                 this.error = error;
             });
         this.handleCancel();

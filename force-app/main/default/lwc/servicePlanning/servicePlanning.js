@@ -1,31 +1,61 @@
-import { LightningElement, wire,track , api } from 'lwc';
-import { NavigationMixin } from 'lightning/navigation';
-import { ShowToastEvent } from 'lightning/platformShowToastEvent';
+import {
+    LightningElement,
+    api
+} from 'lwc';
+
+import {
+    NavigationMixin
+} from 'lightning/navigation';
+
+import {
+    ShowToastEvent
+} from 'lightning/platformShowToastEvent';
+
+import changeStatus from '@salesforce/apex/AG_Referral_CL.changeStatus';
+
 export default class ServicePlanning extends NavigationMixin(LightningElement) {
+
     @api recordId;
-    refferalId = 'a026D000002cDGhQAM';
+
+    @api status = 'In Service';
+
     handleSuccess(event) {
         this.showNotification();
+        this.changeStatusForReferral();
         this[NavigationMixin.Navigate]({
             type: 'standard__recordPage',
             attributes: {
-                recordId:event.detail.id,
-                objectApiName: 'AG_Service__c',
-                actionName: 'view'
-            }
-        });
-        console.log("this.serviceId-->"+this.serviceId)
-    }
-    navToRefferal(){
-        this[NavigationMixin.Navigate]({
-            type: 'standard__recordPage',
-            attributes: {
-                recordId:  this.recordId,
+                recordId: this.recordId,
                 objectApiName: 'AG_Referral__c',
                 actionName: 'view'
             }
         });
     }
+
+    changeStatusForReferral() {
+        changeStatus({
+                recordId: this.recordId,
+                status: this.status
+            })
+            .then((result) => {
+                console.log("Status changed");
+            })
+            .catch((error) => {
+                console.log("Error");
+            })
+    }
+
+    navToRefferal() {
+        this[NavigationMixin.Navigate]({
+            type: 'standard__recordPage',
+            attributes: {
+                recordId: this.recordId,
+                objectApiName: 'AG_Referral__c',
+                actionName: 'view'
+            }
+        });
+    }
+
     showNotification() {
         const evt = new ShowToastEvent({
             title: this.titleText,

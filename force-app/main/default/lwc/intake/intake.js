@@ -13,11 +13,15 @@ import {
 
 import INTAKE_OBJECT from '@salesforce/schema/AG_Intake__c';
 
+import changeStatus from '@salesforce/apex/AG_Referral_CL.changeStatus';
+
 export default class Intake extends NavigationMixin(LightningElement) {
 
     intake = INTAKE_OBJECT;
 
     @api recordId;
+
+    @api status = 'In Assessment';
 
     handleSuccess(event) {
         const successEvent = new ShowToastEvent({
@@ -26,7 +30,21 @@ export default class Intake extends NavigationMixin(LightningElement) {
             variant: "success"
         });
         this.dispatchEvent(successEvent);
+        this.changeStatusForReferral();
         this.handleCancel(event);
+    }
+
+    changeStatusForReferral() {
+        changeStatus({
+                recordId: this.recordId,
+                status: this.status
+            })
+            .then((result) => {
+                console.log("Status changed");
+            })
+            .catch((error) => {
+                console.log("Error");
+            })
     }
 
     handleCancel(event) {

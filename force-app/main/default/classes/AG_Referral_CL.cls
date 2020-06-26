@@ -67,4 +67,19 @@ public with sharing class AG_Referral_CL {
             return '{"success": false, "message": "'+e.getMessage()+'"}';
         }
     }
+
+    @AuraEnabled
+    public static string changeStatus( Id recordId, String status){
+        try{
+            AG_Referral__c referral = [SELECT Id, AG_Status__c  FROM AG_Referral__c WHERE Id =: recordId];
+            referral.AG_Status__c = status;
+            update referral;
+            return '{"success" : true, "data" : '+JSON.serialize(referral)+'}';
+        }
+        catch(Exception e){
+            System.debug(e.getLineNumber());
+            System.debug(e.getMessage());
+            return '{"success": false, "message": "'+e.getMessage()+'"}';
+        }
+    }
 }
