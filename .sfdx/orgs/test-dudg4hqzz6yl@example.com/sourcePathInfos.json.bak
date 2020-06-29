@@ -45,15 +45,14 @@
     [
         "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/applications",
         {
+            "state": "u",
             "sourcePath": "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/applications",
             "isDirectory": true,
-            "size": 96,
-            "modifiedTime": 1593145135705,
-            "changeTime": 1593072704289,
-            "contentHash": "8db4ce9a7f47855817eea2bd06c57cb53d8f3f94",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false
+            "size": 96,
+            "modifiedTime": 1593406715680,
+            "changeTime": 1593406715680,
+            "contentHash": "20757257d2c5c9de6571a6eafc819c1c9204fd07"
         }
     ],
     [
@@ -649,19 +648,6 @@
         }
     ],
     [
-        "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/applications/Allegheny_County.app-meta.xml",
-        {
-            "sourcePath": "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/applications/Allegheny_County.app-meta.xml",
-            "isDirectory": false,
-            "size": 1674,
-            "modifiedTime": 1593145135705,
-            "changeTime": 1593145135705,
-            "contentHash": "1255a3d5e0fa3c8a4239d4d34d555226697d1c60",
-            "isMetadataFile": true,
-            "state": "u"
-        }
-    ],
-    [
         "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/flexipages/Allegheny_County_UtilityBar.flexipage-meta.xml",
         {
             "sourcePath": "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/flexipages/Allegheny_County_UtilityBar.flexipage-meta.xml",
@@ -937,14 +923,14 @@
     [
         "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/objects/AG_Referral__c/fields/AG_Status__c.field-meta.xml",
         {
+            "state": "u",
             "sourcePath": "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/objects/AG_Referral__c/fields/AG_Status__c.field-meta.xml",
             "isDirectory": false,
-            "size": 1715,
-            "modifiedTime": 1593167223042,
-            "changeTime": 1593167223042,
-            "contentHash": "3dc0473cc52df28167b7a4089f051d48be0d95fd",
             "isMetadataFile": true,
-            "state": "u"
+            "size": 2059,
+            "modifiedTime": 1593406715641,
+            "changeTime": 1593406715641,
+            "contentHash": "619793368f1fc1582595efb6fcb55c2711004943"
         }
     ],
     [
@@ -1301,14 +1287,14 @@
     [
         "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/layouts/AG_Referral__c-Referral Layout.layout-meta.xml",
         {
+            "state": "u",
             "sourcePath": "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/layouts/AG_Referral__c-Referral Layout.layout-meta.xml",
             "isDirectory": false,
-            "size": 6804,
-            "modifiedTime": 1593236960761,
-            "changeTime": 1593236960761,
-            "contentHash": "2b836dc3438fd3c6d478170ebeef5c60b3cf330f",
             "isMetadataFile": true,
-            "state": "u"
+            "size": 6669,
+            "modifiedTime": 1593406715675,
+            "changeTime": 1593406715675,
+            "contentHash": "7e09e3a3293dca60b3f3d1d5093cfddb396d93e6"
         }
     ],
     [
@@ -2250,14 +2236,14 @@
     [
         "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/lwc/assessment/assessment.html",
         {
-            "state": "u",
             "sourcePath": "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/lwc/assessment/assessment.html",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1786,
             "modifiedTime": 1593237961560,
             "changeTime": 1593237961560,
-            "contentHash": "80acb9ffcd60d5da7eedced594921439276b03b7"
+            "contentHash": "80acb9ffcd60d5da7eedced594921439276b03b7",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -2310,6 +2296,19 @@
             "contentHash": "c06b153d5c836b9b7bc80b4397cc2deaa643e799",
             "isMetadataFile": true,
             "state": "u"
+        }
+    ],
+    [
+        "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/applications/AG_Human_Service.app-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/gowtham_kalaiselvan/Documents/Company/CMIS/cmis-project/force-app/main/default/applications/AG_Human_Service.app-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1671,
+            "modifiedTime": 1593406715678,
+            "changeTime": 1593406715678,
+            "contentHash": "0b14a981618bd75db92543bf08f40065da5a11b5"
         }
     ]
 ]

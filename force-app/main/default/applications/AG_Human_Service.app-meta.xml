@@ -27,7 +27,7 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
-    <label>Allegheny County</label>
+    <label>Human Service</label>
     <navType>Standard</navType>
     <tabs>standard-Account</tabs>
     <tabs>AG_Referral__c</tabs>

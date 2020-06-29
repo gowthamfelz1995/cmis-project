@@ -15,6 +15,7 @@
                     <lightning:progressIndicator currentStep="{!v.pathValue}" type="path" variant="base">
                         <lightning:progressStep label="In Referral" value="inReferral" />
                         <lightning:progressStep label="In Approval" value="inApproval" />
+                        <lightning:progressStep label="Approved" value="approved" />
                         <lightning:progressStep label="Waitlisted" value="waitlisted" />
                         <lightning:progressStep label="In take" value="inTake" />
                         <lightning:progressStep label="In Assessment" value="assessment" />

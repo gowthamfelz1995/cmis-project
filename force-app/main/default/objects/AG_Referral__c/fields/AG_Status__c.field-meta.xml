@@ -46,6 +46,16 @@
                 <default>false</default>
                 <label>In Service</label>
             </value>
+            <value>
+                <fullName>In Assessment</fullName>
+                <default>false</default>
+                <label>In Assessment</label>
+            </value>
+            <value>
+                <fullName>In Take</fullName>
+                <default>false</default>
+                <label>In Take</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>
