@@ -36,8 +36,11 @@
         } else if (status == 'Waitlisted') {
             currentStatus = 'waitlisted';
         } else if (status == "Approved") {
+            currentStatus = "approved";
+        } else if (status == "In Take") {
             currentStatus = "inTake";
-        } else if (status == "In Assessment") {
+        } 
+        else if (status == "In Assessment") {
             currentStatus = "assessment";
         } else if (status == 'In Service') {
             currentStatus = 'inService';

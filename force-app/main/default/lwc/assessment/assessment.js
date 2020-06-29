@@ -22,6 +22,8 @@ export default class Assessment extends NavigationMixin(LightningElement) {
     @api recordId;
 
     @api serviceProvider;
+    
+    @api status = 'In Assessment';
 
     connectedCallback() {
         getServiceProviderForAssessment({
@@ -35,7 +37,18 @@ export default class Assessment extends NavigationMixin(LightningElement) {
                 this.error = error;
             });
     }
-
+    changeStatusForReferral() {
+        changeStatus({
+                recordId: this.recordId,
+                status: this.status
+            })
+            .then((result) => {
+                console.log("Status changed");
+            })
+            .catch((error) => {
+                console.log("Error");
+            })
+    } 
     handleSuccess(event) {
         const successEvent = new ShowToastEvent({
             title: "Success",

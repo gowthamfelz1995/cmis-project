@@ -21,7 +21,7 @@ export default class Intake extends NavigationMixin(LightningElement) {
 
     @api recordId;
 
-    @api status = 'In Assessment';
+    @api status = 'In Take';
 
     handleSuccess(event) {
         const successEvent = new ShowToastEvent({
