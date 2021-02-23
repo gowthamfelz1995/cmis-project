@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AG_Sub_Services__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub Services</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>AG_Service_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Child Care</fullName>
+                <default>false</default>
+                <label>Child Care</label>
+            </value>
+            <value>
+                <fullName>Employement</fullName>
+                <default>false</default>
+                <label>Employement</label>
+            </value>
+            <value>
+                <fullName>Drugs and Alcohols</fullName>
+                <default>false</default>
+                <label>Drugs and Alcohols</label>
+            </value>
+            <value>
+                <fullName>Incarceration Support</fullName>
+                <default>false</default>
+                <label>Incarceration Support</label>
+            </value>
+            <value>
+                <fullName>Intellectual Disability / Autism</fullName>
+                <default>false</default>
+                <label>Intellectual Disability / Autism</label>
+            </value>
+            <value>
+                <fullName>LGBTQ</fullName>
+                <default>false</default>
+                <label>LGBTQ</label>
+            </value>
+            <value>
+                <fullName>Mental Health</fullName>
+                <default>false</default>
+                <label>Mental Health</label>
+            </value>
+            <value>
+                <fullName>Safety Tips</fullName>
+                <default>false</default>
+                <label>Safety Tips</label>
+            </value>
+            <value>
+                <fullName>Veterans Services</fullName>
+                <default>false</default>
+                <label>Veterans Services</label>
+            </value>
+            <value>
+                <fullName>Developmental Delays Disabilities</fullName>
+                <default>false</default>
+                <label>Developmental Delays Disabilities</label>
+            </value>
+            <value>
+                <fullName>Parent and Caregiver Support</fullName>
+                <default>false</default>
+                <label>Parent and Caregiver Support</label>
+            </value>
+            <value>
+                <fullName>Health Insurance</fullName>
+                <default>false</default>
+                <label>Health Insurance</label>
+            </value>
+            <value>
+                <fullName>Home Repair and Safety</fullName>
+                <default>false</default>
+                <label>Home Repair and Safety</label>
+            </value>
+            <value>
+                <fullName>Transportation</fullName>
+                <default>false</default>
+                <label>Transportation</label>
+            </value>
+            <value>
+                <fullName>Utility Assistance</fullName>
+                <default>false</default>
+                <label>Utility Assistance</label>
+            </value>
+            <value>
+                <fullName>Food Assistance</fullName>
+                <default>false</default>
+                <label>Food Assistance</label>
+            </value>
+            <value>
+                <fullName>Housing and Homeless</fullName>
+                <default>false</default>
+                <label>Housing and Homeless</label>
+            </value>
+            <value>
+                <fullName>Child Protection</fullName>
+                <default>false</default>
+                <label>Child Protection</label>
+            </value>
+            <value>
+                <fullName>Education</fullName>
+                <default>false</default>
+                <label>Education</label>
+            </value>
+            <value>
+                <fullName>Justice Related Services</fullName>
+                <default>false</default>
+                <label>Justice Related Services</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Basic Needs</controllingFieldValue>
+            <valueName>Child Care</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Needs</controllingFieldValue>
+            <valueName>Employement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Needs</controllingFieldValue>
+            <controllingFieldValue>Children and Families</controllingFieldValue>
+            <valueName>Parent and Caregiver Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Needs</controllingFieldValue>
+            <valueName>Health Insurance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Needs</controllingFieldValue>
+            <valueName>Home Repair and Safety</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Needs</controllingFieldValue>
+            <valueName>Transportation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Needs</controllingFieldValue>
+            <valueName>Utility Assistance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Needs</controllingFieldValue>
+            <valueName>Food Assistance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Basic Needs</controllingFieldValue>
+            <valueName>Housing and Homeless</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Adults</controllingFieldValue>
+            <controllingFieldValue>Children and Families</controllingFieldValue>
+            <controllingFieldValue>Person with Special Needs</controllingFieldValue>
+            <valueName>Drugs and Alcohols</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Adults</controllingFieldValue>
+            <controllingFieldValue>Children and Families</controllingFieldValue>
+            <controllingFieldValue>Person with Special Needs</controllingFieldValue>
+            <valueName>Incarceration Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Adults</controllingFieldValue>
+            <controllingFieldValue>Children and Families</controllingFieldValue>
+            <controllingFieldValue>Person with Special Needs</controllingFieldValue>
+            <valueName>Intellectual Disability / Autism</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Adults</controllingFieldValue>
+            <controllingFieldValue>Children and Families</controllingFieldValue>
+            <valueName>LGBTQ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Adults</controllingFieldValue>
+            <controllingFieldValue>Children and Families</controllingFieldValue>
+            <controllingFieldValue>Person with Special Needs</controllingFieldValue>
+            <valueName>Mental Health</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Adults</controllingFieldValue>
+            <controllingFieldValue>Children and Families</controllingFieldValue>
+            <controllingFieldValue>Person with Special Needs</controllingFieldValue>
+            <valueName>Safety Tips</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Adults</controllingFieldValue>
+            <valueName>Veterans Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Children and Families</controllingFieldValue>
+            <controllingFieldValue>Person with Special Needs</controllingFieldValue>
+            <valueName>Developmental Delays Disabilities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Children and Families</controllingFieldValue>
+            <valueName>Child Protection</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Person with Special Needs</controllingFieldValue>
+            <valueName>Justice Related Services</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

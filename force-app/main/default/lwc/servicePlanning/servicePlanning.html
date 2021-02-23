@@ -1,0 +1,58 @@
+<template>
+    <lightning-card title="Service Planning" icon-name="custom:custom19">
+        <lightning-record-edit-form object-api-name="AG_Service__c" onsuccess={handleSuccess}>
+            <lightning-messages>
+            </lightning-messages>
+            
+            <lightning-layout class="slds-p-around_xx-large" multiple-rows="true">
+
+                <lightning-layout-item size="6">
+                    <lightning-input-field field-name="AG_Referral__c" value={recordId}>
+                    </lightning-input-field>
+                </lightning-layout-item>
+
+                <lightning-layout-item size="6">
+                    <lightning-input-field field-name="AG_Description__c">
+                    </lightning-input-field>
+                </lightning-layout-item>
+
+                <lightning-layout-item size="6">
+                    <lightning-input-field field-name="AG_From_Date__c">
+                    </lightning-input-field>
+                </lightning-layout-item>
+
+                <lightning-layout-item size="6">
+                    <lightning-input-field field-name="AG_To_Date__c">
+                    </lightning-input-field>
+                </lightning-layout-item>
+
+                <lightning-layout-item size="6">
+                    <lightning-input-field field-name="AG_Service_Type__c">
+                    </lightning-input-field>
+                </lightning-layout-item>
+
+                <lightning-layout-item size="6">
+                    <lightning-input-field field-name="AG_Sub_Services__c">
+                    </lightning-input-field>
+                </lightning-layout-item>
+
+                <lightning-layout-item size="12">
+                    <lightning-layout class="slds-m-top_x-large">
+                        <lightning-layout-item size="6">
+                            <lightning-button class="slds-float_right" onclick={navToRefferal} label="Cancel">
+                            </lightning-button>
+                           
+                        </lightning-layout-item>
+                        <lightning-layout-item size="6">
+                            <lightning-button class="slds-m-left_medium" variant="brand" type="submit" label="Save">
+                            </lightning-button>
+                        </lightning-layout-item>
+                    </lightning-layout>
+                </lightning-layout-item>
+
+            </lightning-layout>
+
+        </lightning-record-edit-form>
+
+    </lightning-card>
+</template>

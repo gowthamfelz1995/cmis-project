@@ -13,24 +13,15 @@ import {
 
 import INTAKE_OBJECT from '@salesforce/schema/AG_Intake__c';
 
-import INTAKE_COORDINATOR_FIELD from '@salesforce/schema/AG_Intake__c.AG_Intake_Coordinator__c';
+import changeStatus from '@salesforce/apex/AG_Referral_CL.changeStatus';
 
-import REFERRAL_FIELD from '@salesforce/schema/AG_Intake__c.AG_Referral__c';
-
-import SERVICE_PROVIDER_FIELD from '@salesforce/schema/AG_Intake__c.AG_Service_Provider__c';
-
-import DEMOGRAPHIC_INFORMATION from '@salesforce/schema/AG_Intake__c.AG_Demographic_Information__c';
-
-import INSURANCE_INFORMATION from '@salesforce/schema/AG_Intake__c.AG_Insurance_Information__c';
-
-
-export default class Intake extends LightningElement {
+export default class Intake extends NavigationMixin(LightningElement) {
 
     intake = INTAKE_OBJECT;
 
     @api recordId;
 
-    fields = [REFERRAL_FIELD, INTAKE_COORDINATOR_FIELD, SERVICE_PROVIDER_FIELD, DEMOGRAPHIC_INFORMATION, INSURANCE_INFORMATION];
+    @api status = 'In Take';
 
     handleSuccess(event) {
         const successEvent = new ShowToastEvent({
@@ -39,5 +30,31 @@ export default class Intake extends LightningElement {
             variant: "success"
         });
         this.dispatchEvent(successEvent);
+        this.changeStatusForReferral();
+        this.handleCancel(event);
+    }
+
+    changeStatusForReferral() {
+        changeStatus({
+                recordId: this.recordId,
+                status: this.status
+            })
+            .then((result) => {
+                console.log("Status changed");
+            })
+            .catch((error) => {
+                console.log("Error");
+            })
+    }
+
+    handleCancel(event) {
+        this[NavigationMixin.Navigate]({
+            type: 'standard__recordPage',
+            attributes: {
+                recordId: this.recordId,
+                objectApiName: 'AG_Referral__c',
+                actionName: 'view'
+            }
+        });
     }
 }

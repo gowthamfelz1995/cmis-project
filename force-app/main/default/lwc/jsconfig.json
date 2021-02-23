@@ -2,7 +2,26 @@
     "compilerOptions": {
         "experimentalDecorators": true,
         "baseUrl": ".",
-        "paths": {}
+        "paths": {
+            "c/assessment": [
+                "assessment/assessment.js"
+            ],
+            "c/discharge": [
+                "discharge/discharge.js"
+            ],
+            "c/intake": [
+                "intake/intake.js"
+            ],
+            "c/pubsub": [
+                "pubsub/pubsub.js"
+            ],
+            "c/servicePlanning": [
+                "servicePlanning/servicePlanning.js"
+            ],
+            "c/waitList": [
+                "waitList/waitList.js"
+            ]
+        }
     },
     "include": [
         "**/*",
