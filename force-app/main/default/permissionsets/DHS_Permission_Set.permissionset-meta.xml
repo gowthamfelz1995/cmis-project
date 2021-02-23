@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
-    <applicationVisibilities>
-        <application>Allegheny_County</application>
-        <visible>true</visible>
-    </applicationVisibilities>
     <description>DHS Permission Set</description>
     <fieldPermissions>
         <editable>true</editable>
@@ -98,11 +94,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>AG_Service__c.AG_To_Date__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>AG_Service__c.Service_Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
